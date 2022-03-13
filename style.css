@@ -40,3 +40,24 @@ body {
 .side-logo ul li a:hover {
     background-color: transparent; border: 2px solid rgb(29, 194, 23);padding: .36rem;margin: .4rem;
 }
+.Sub-menu1 {
+    display: none;
+}
+.top-nav ul li:hover .Sub-menu1 {
+    display: block;position: absolute;
+}
+.Sub-menu1 ul {
+    display: block;background-color: #dddddd;margin: 0;padding: 0;
+}
+.Sub-menu1 ul li {
+    
+}
+.Sub-menu1 ul li a {
+    color: red; padding: .5rem;width: 100%;
+}
+.Sub-menu1 ul li a:hover {
+    
+}
+.Sub-menu1 ul li:hover {
+    background-color: black;
+}
