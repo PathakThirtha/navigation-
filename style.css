@@ -17,7 +17,7 @@ body {
     display: flex;
 }
 .top-nav ul {
-    display: flex
+    display: flex;
 }
 .top-nav ul li {
     margin: .2rem;padding: 1rem;
@@ -40,24 +40,21 @@ body {
 .side-logo ul li a:hover {
     background-color: transparent; border: 2px solid rgb(29, 194, 23);padding: .36rem;margin: .4rem;
 }
-.Sub-menu1 {
-    display: none;
+.edu-institute {
+    display: none;background-color: #2b2121;width: 15rem;margin: 0;padding: 0;
 }
-.top-nav ul li:hover .Sub-menu1 {
+.top-nav ul li:hover .edu-institute {
     display: block;position: absolute;
 }
-.Sub-menu1 ul {
-    display: block;background-color: #dddddd;margin: 0;padding: 0;
+.edu-institute ul {
+    display: flex;flex-direction: column;margin: 0;padding: 0;
 }
-.Sub-menu1 ul li {
-    
+.edu-institute ul li {
+    padding: 1rem;margin: 0;
 }
-.Sub-menu1 ul li a {
-    color: red; padding: .5rem;width: 100%;
-}
-.Sub-menu1 ul li a:hover {
-    
-}
-.Sub-menu1 ul li:hover {
-    background-color: black;
+/* .edu-institute ul li a:hover {
+background-color: red;padding: 1rem;
+} */
+.edu-institute ul li:hover {
+    background-color: red;
 }
